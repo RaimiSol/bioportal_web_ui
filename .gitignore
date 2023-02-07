@@ -1,3 +1,9 @@
+# custom
+.rubocop.yml
+.solargraph.yml
+.vscode
+config/definitions.rb
+# ontoportal
 *.rbc
 *.sassc
 .sass-cache
