@@ -100,10 +100,9 @@ group :development do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 
   # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem "web-console"
-  gem "rufo"
-  gem "solargraph"
-  gem "reek"
+  gem "rufo", :require => false
+  gem "solargraph", :require => false
+  gem "reek", :require => false
 end
 
 group :test, :development do
